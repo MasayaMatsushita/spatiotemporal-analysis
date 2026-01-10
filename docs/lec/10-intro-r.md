@@ -1,7 +1,12 @@
 ---
+layout: default
+title: はじめてのR
+nav_order: 10
+---
+
 # はじめてのR
 
-← 目次に戻る
+[ 目次に戻る
 
 ## 概要
 RのインストールとRStudioの動作確認
@@ -41,5 +46,3 @@ RのインストールとRStudioの動作確認
 ## 参考資料（References）
 - 授業資料（GitHub Pages／配布ドキュメント）。
 - 教科書・推奨文献（該当箇所）。
-
----
