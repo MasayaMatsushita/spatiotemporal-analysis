@@ -1,0 +1,37 @@
+# QGIS
+*.qgs~
+*.qgz~
+*.aux.xml
+*.qml~
+*.qpj
+*.gpkg-wal
+*.gpkg-shm
+.qgis2/
+.qgis3/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rproj
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Large geospatial data (optional)
+*.tif
+*.tiff
+*.img
+*.zip
+*.7z
+*.tar
+*.gz
