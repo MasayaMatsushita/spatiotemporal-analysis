@@ -34,20 +34,20 @@ This course will employ a curriculum centered on practical exercises using own P
 
 | No | テーマ | 内容 |
 | -- | -------------------| --------------------------- |
-| 1  | [ガイダンス](guidance.md) | 講義の概要と進め方について解説し，地理空間データの概要を学ぶ |
-| 2  | [はじめてのQGIS](intro-qgis.md) | QGISの環境構築を説明し，その基本的な使い方について学ぶ |
-| 3  | [地理空間データの分析①](analysis1.md) | 地理空間データの種類と座標参照系について学ぶ |
-| 4  | [地理空間データの分析②](analysis2.md) | 複数の地理空間データを活用し，高度なデータの可視化に取り組む |
-| 5  | [地理空間データの分析の活用](analysis-application.md) | QGISを活用しオープンデータを用いて地理空間データの可視化に取り組む |
-| 6  | [ネットワーク分析](network-analysis.md) | QGISを活用したネットワーク分析の理論と分析手法について学ぶ |
-| 7  | [領域分析](area-analysis.md) | QGISを活用した領域分析の理論と分析手法について学ぶ |
-| 8  | [点データの分析](point-analysis.md) | 点データの分析手法について理論と手法について学ぶ |
-| 9  | [ラスタデータの分析](raster-analysis.md) | ラスタデータの分析方法について理論と手法について学ぶ |
-| 10 | [はじめてのR](intro-r.md) | RのインストールとRStudioの動作確認 |
-| 11 | [地理空間データの分析③](analysis3.md) | Rを活用した地理空間データの分析手法について学ぶ |
-| 12 | [空間相関分析](spatial-correlation.md) | Rを活用した空間相関の理論と分析手法について学ぶ |
-| 13 | [空間統計量](spatial-statistics.md) | Rを活用した空間統計量について理論や分析手法について学ぶ |
-| 14 | [Rを用いた時空間分析](spatiotemporal-final.md) | Rを活用しオープンデータを用いて最終課題に取り組む |
+| 1  | [ガイダンス](./lec/01-guidance.md) | 講義の概要と進め方について解説し，地理空間データの概要を学ぶ |
+| 2  | [はじめてのQGIS](./lec/02-intro-qgis.md) | QGISの環境構築を説明し，その基本的な使い方について学ぶ |
+| 3  | [地理空間データ分析の基礎(QGIS編)](./lec/03-spatial-data-analysis.md) | 地理空間データの種類と座標参照系について学ぶ |
+| 4  | [(演習1)地理空間データ分析](./lec/04-spatial-data-analysis-exercise.md) | QGISを活用しオープンデータを用いて地理空間データの可視化に取り組む |
+| 5  | [ネットワーク分析](./lec/05-network-analysis.md) | QGISを活用したネットワーク分析の理論と分析手法について学ぶ |
+| 6  | [領域分析](./lec/06-area-analysis.md) | QGISを活用した領域分析の理論と分析手法について学ぶ |
+| 7  | [点データ分析](./lec/07-point-analysis.md) | 点データの分析手法について理論と手法について学ぶ |
+| 8  | [ラスタデータの分析](./lec/08-raster-analysis.md) | ラスタデータの分析方法について理論と手法について学ぶ |
+| 9  | [(演習2)QGISを用いた時空間分析](./lec/09-spatial-analysis-exercise.md) | QGISを活用しオープンデータを用いて課題に取り組む |
+| 10 | [はじめてのR](./lec/10-intro-r.md) | RのインストールとRStudioの動作確認 |
+| 11 | [地理空間データ分析の基礎(R言語編)](./lec/11-spatial-data-analysis-r) | Rを活用した地理空間データの分析手法について学ぶ |
+| 12 | [空間相関分析](./lec/12-spatial-correlation-analysis.md) | Rを活用した空間相関の理論と分析手法について学ぶ |
+| 13 | [空間統計量](./lec/13-spatial-stat) | Rを活用した空間統計量の理論と分析手法について学ぶ |
+| 14 | [(演習3)Rを用いた時空間分析](./lec/14-spatial-analysis-r) | Rを活用しオープンデータを用いて課題に取り組む |
 
 ---
 
