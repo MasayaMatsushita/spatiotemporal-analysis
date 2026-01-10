@@ -1,20 +1,20 @@
 # 時系列解析
 
-## 【授業の概要と目的（何を学ぶか）】Outline and objectives 必須/required
+## 【授業の概要と目的（何を学ぶか）】Outline and objectives
 
 時空間解析の理論やアルゴリズムを理解した上で，QGISやR言語を利用し，身近にあるオープンデータを用いた時空間解析の手法が使えるようになることを目的とする．
 そのために，PCを活用し演習を中心としたカリキュラムを行う．
 
 ---
 
-## 【Outline (in English)】 必須/required
+## 【Outline (in English)】
 
 Students will gain an understanding of spatio-temporal analysis theories and algorithms, and learn to utilize QGIS and the R programming language. To achieve this, they will require to utilize readily available open data.
 This course will employ a curriculum centered on practical exercises using own PC.
 
 ---
 
-## 【到達目標】Goal 必須/required
+## 【到達目標】Goal
 
 1. 時空間解析を実施する理論・アルゴリズムを理解し，アプリケーションが動作している基本原理を説明できるようになる．
 2. 時空間解析を行うためのオープンデータの取得方法を学び，QGISによる解析手法を体得する．
@@ -28,9 +28,9 @@ This course will employ a curriculum centered on practical exercises using own P
 
 ---
 
-## 授業形態/methods of teaching：対面/face to face
+## 授業形態/methods of teaching
 
-以下の各テーマにリンクを設定しました。クリックすると詳細ページに移動できます。
+以下の各テーマにリンクを設定しました。クリックすると各講義資料に移動できます。
 
 | No | テーマ | 内容 |
 | -- | -------------------| --------------------------- |
@@ -51,7 +51,7 @@ This course will employ a curriculum centered on practical exercises using own P
 
 ---
 
-## 【授業時間外の学習（準備学習・復習・宿題等）】Work to be done outside of class (preparation, etc.) 必須/required
+## 【授業時間外の学習（準備学習・復習・宿題等）】Work to be done outside of class (preparation, etc.)
 
 - 本授業の準備・学習時間は，各4時間を標準とする．
 - 統計学，情報リテラシーの基礎を理解していることが望ましい．
@@ -59,27 +59,27 @@ This course will employ a curriculum centered on practical exercises using own P
 
 ---
 
-## 【テキスト（教科書）】Textbooks 必須/required
+## 【テキスト（教科書）】Textbooks
 
 なし
 
 ---
 
-## 【参考書】References 必須/required
+## 【参考書】References
 
 - [GIS実習オープン教材](https://gis-oer.github.io/gitbook/book/)
 - Ｒではじめる地理空間データの統計解析入門 （実践Ｄａｔａ Ｓｃｉｅｎｃｅシリーズ）村上 大輔 （著）
 
 ---
 
-## 【成績評価の方法と基準】Grading criteria 必須/required
+## 【成績評価の方法と基準】Grading criteria
 
 演習で作成した制作物の合計点（50％），平常点の合計点（20％），最終制作物（30％）
 ただし，毎回の授業態度等に問題がある場合には随時減点する．
 
 ---
 
-## 【学生の意見等からの気づき】Changes following student comments 必須/required
+## 【学生の意見等からの気づき】Changes following student comments
 
 本年度授業担当者変更によりフィードバックできません．
 
