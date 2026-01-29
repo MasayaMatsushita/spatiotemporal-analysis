@@ -4,7 +4,7 @@ lectureName: '時空間解析'
 nav_order: 2
 ---
 
-# QGISの使用
+# 第2回 QGISの使用
 
 [目次に戻る](../index.md)
 
