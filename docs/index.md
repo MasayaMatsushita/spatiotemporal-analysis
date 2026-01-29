@@ -2,29 +2,27 @@
 
 ## 【授業の概要と目的（何を学ぶか）】Outline and objectives
 
-時空間解析の理論やアルゴリズムを理解した上で，QGISやR言語を利用し，身近にあるオープンデータを用いた時空間解析の手法が使えるようになることを目的とする．
-そのために，PCを活用し演習を中心としたカリキュラムを行う．
+時空間解析の理論やアルゴリズムを理解し，オープンデータを用いた時空間解析が行えるようになることを目的とする．貸与ノートPC等のPC端末を活用し，QGISやR言語を活用した演習を適宜取り入れる．
 
 ---
 
 ## 【Outline (in English)】
 
-Students will gain an understanding of spatio-temporal analysis theories and algorithms, and learn to utilize QGIS and the R programming language. To achieve this, they will require to utilize readily available open data.
-This course will employ a curriculum centered on practical exercises using own PC.
+This class is designed to help students understand spatio-temporal analysis theories and algorithms. The goals also include developing the ability to independently seek and retrieve open data. To facilitate quick and in-depth analysis, open-source application software including QGIS and R will be used. Students must bring their own laptops.
 
 ---
 
 ## 【到達目標】Goal
 
-1. 時空間解析を実施する理論・アルゴリズムを理解し，アプリケーションが動作している基本原理を説明できるようになる．
-2. 時空間解析を行うためのオープンデータの取得方法を学び，QGISによる解析手法を体得する．
-3. 時空間解析を行うためのオープンデータの取得方法を学び，R言語による解析手法を体得する．
+1. 時空間解析を実施する理論・アルゴリズムを理解し，アプリケーションが動作している基本原理が説明できる．
+2. 時空間解析を行うためのオープンデータが取得でき，QGISによって各種の解析手法が行える．
+3. 取得したオープンデータを用いて，R言語による解析が行える．
 
 ---
 
 ## 【授業の進め方と方法】Method(s)
 
-本授業では，オープンソースソフトウェアであるQGISとR言語を活用した演習を行う．基本的な進め方として各自のPCを使って手順書に従いながら作業を進める．
+本授業では，オープンソースソフトウェアであるQGISとR言語を活用した演習を行う．基本的な進め方として各自の貸与ノートPCなどのPC端末を用い，配布教材に示す手順書に従いながら作業を進める．
 
 ---
 
@@ -34,20 +32,20 @@ This course will employ a curriculum centered on practical exercises using own P
 
 | No | テーマ | 内容 |
 | -- | -------------------| --------------------------- |
-| 1  | [ガイダンス](./lec/01-guidance.md) | 講義の概要と進め方について解説し，地理空間データの概要を学ぶ |
-| 2  | [はじめてのQGIS](./lec/02-intro-qgis.md) | QGISの環境構築を説明し，その基本的な使い方について学ぶ |
-| 3  | [地理空間データ分析の基礎(QGIS編)](./lec/03-spatial-data-analysis.md) | 地理空間データの種類と座標参照系について学ぶ |
-| 4  | [(演習1)地理空間データ分析](./lec/04-spatial-data-analysis-exercise.md) | QGISを活用しオープンデータを用いて地理空間データの可視化に取り組む |
-| 5  | [ネットワーク分析](./lec/05-network-analysis.md) | QGISを活用したネットワーク分析の理論と分析手法について学ぶ |
-| 6  | [領域分析](./lec/06-area-analysis.md) | QGISを活用した領域分析の理論と分析手法について学ぶ |
-| 7  | [点データ分析](./lec/07-point-analysis.md) | 点データの分析手法について理論と手法について学ぶ |
-| 8  | [ラスタデータの分析](./lec/08-raster-analysis.md) | ラスタデータの分析方法について理論と手法について学ぶ |
-| 9  | [(演習2)QGISを用いた時空間分析](./lec/09-spatial-analysis-exercise.md) | QGISを活用しオープンデータを用いて課題に取り組む |
-| 10 | [はじめてのR](./lec/10-intro-r.md) | RのインストールとRStudioの動作確認 |
-| 11 | [地理空間データ分析の基礎(R言語編)](./lec/11-spatial-data-analysis-r) | Rを活用した地理空間データの分析手法について学ぶ |
-| 12 | [空間相関分析](./lec/12-spatial-correlation-analysis.md) | Rを活用した空間相関の理論と分析手法について学ぶ |
-| 13 | [空間統計量](./lec/13-spatial-stat) | Rを活用した空間統計量の理論と分析手法について学ぶ |
-| 14 | [(演習3)Rを用いた時空間分析](./lec/14-spatial-analysis-r) | Rを活用しオープンデータを用いて課題に取り組む |
+| 1 | [実施ガイダンス](./lec/01-guidance.md) | 講義の概要と進め方について解説し，地理空間データの概要を学ぶ |
+| 2 | [QGISの使用](./lec/02-intro-qgis.md) | QGISの実行環境を構築し，基本的な使用法に習熟する |
+| 3 | [QGISを用いた地理空間データ分析](./lec/03-spatial-data-analysis.md) | 地理空間データの種類と座標参照系について学ぶ |
+| 4 | [地理空間データ分析](./lec/04-spatial-data-analysis-exercise.md) | QGISを使用し，オープンデータを用いて地理空間データを可視化する |
+| 5 | [ネットワーク分析](./lec/05-network-analysis.md) | QGISを活用し，ネットワーク分析の理論と分析手法について学ぶ |
+| 6 | [領域分析](./lec/06-area-analysis.md) | QGISを活用した領域分析の理論と分析手法について学ぶ |
+| 7 | [点データ分析](./lec/07-point-analysis.md) | 点データの分析手法に関する理論と手法について学ぶ |
+| 8 | [ラスタデータの分析](./lec/08-raster-analysis.md) | ラスタデータの分析方法に関する理論と手法について学ぶ |
+| 9 | [QGISを用いた時空間分析](./lec/09-spatial-analysis-exercise.md) | オープンデータを用いて地理空間データを可視化する |
+| 10 | [R，Rstudioの使用](./lec/10-intro-r.md) | RおよびRStudioの実行環境を構築し，R言語の使い方について学ぶ |
+| 11 | [R言語を用いた地理空間データ分析](./lec/11-spatial-data-analysis-r) | Rを活用した地理空間データの分析手法について学ぶ |
+| 12 | [空間相関分析](./lec/12-spatial-correlation-analysis.md) | 空間相関の理論と分析手法について学ぶ |
+| 13 | [空間統計量](./lec/13-spatial-stat) | 空間統計量の理論と分析手法について学ぶ |
+| 14 | [時空間分析](./lec/14-spatial-analysis-r) | Rを使用し，オープンデータを用いて地理空間データの可視化と解析を行う |
 
 ---
 
@@ -55,27 +53,26 @@ This course will employ a curriculum centered on practical exercises using own P
 
 - 本授業の準備・学習時間は，各4時間を標準とする．
 - 統計学，情報リテラシーの基礎を理解していることが望ましい．
-- プログラミング（R言語以外でも構わない）の知識があるとより良い学習につながる．
+- 言語は問わないが，プログラミングに抵抗感がないことが望ましい．
 
 ---
 
 ## 【テキスト（教科書）】Textbooks
 
-なし
+使用せず，適宜資料を配布する．
 
 ---
 
 ## 【参考書】References
 
 - [GIS実習オープン教材](https://gis-oer.github.io/gitbook/book/)
-- Ｒではじめる地理空間データの統計解析入門 （実践Ｄａｔａ Ｓｃｉｅｎｃｅシリーズ）村上 大輔 （著）
+- Rではじめる地理空間データの統計解析入門 （実践Data Scienceシリーズ）村上 大輔 （著）
 
 ---
 
 ## 【成績評価の方法と基準】Grading criteria
 
-演習で作成した制作物の合計点（50％），平常点の合計点（20％），最終制作物（30％）
-ただし，毎回の授業態度等に問題がある場合には随時減点する．
+平常点（20％），演習課題（80％：3回を予定）
 
 ---
 
@@ -88,10 +85,12 @@ This course will employ a curriculum centered on practical exercises using own P
 ## 【学生が準備すべき機器他】Equipment student needs to prepare
 
 貸与ノートPCなどのPC端末を持参すること．
-QGIS，R，Rstudioのインストールについては環境構築の授業にて指示する．
+QGIS，R，Rstudioのインストールと環境構築については，授業中に指示する．
 
 ---
 
 ## 【その他の重要事項】Others
 
 なし
+
+---
