@@ -4,7 +4,7 @@ lectureName: '時空間解析'
 nav_order: 6
 ---
 
-# 領域分析
+# 第6回 領域分析
 
 [目次に戻る](../index.md)
 

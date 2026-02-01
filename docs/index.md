@@ -44,8 +44,8 @@ This class is designed to help students understand spatio-temporal analysis theo
 | 10 | [R，Rstudioの使用](./lec/10-intro-r.md) | RおよびRStudioの実行環境を構築し，R言語の使い方について学ぶ |
 | 11 | [R言語を用いた地理空間データ分析](./lec/11-spatial-data-analysis-r) | Rを活用した地理空間データの分析手法について学ぶ |
 | 12 | [空間相関分析](./lec/12-spatial-correlation-analysis.md) | 空間相関の理論と分析手法について学ぶ |
-| 13 | [空間統計量](./lec/13-spatial-stat) | 空間統計量の理論と分析手法について学ぶ |
-| 14 | [時空間分析](./lec/14-spatial-analysis-r) | Rを使用し，オープンデータを用いて地理空間データの可視化と解析を行う |
+| 13 | [空間統計量](./lec/13-spatial-stat.md) | 空間統計量の理論と分析手法について学ぶ |
+| 14 | [時空間分析](./lec/14-spatial-analysis-r.md) | Rを使用し，オープンデータを用いて地理空間データの可視化と解析を行う |
 
 ---
 

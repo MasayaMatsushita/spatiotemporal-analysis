@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Rを用いた時空間分析
-nav_order: 14
+title: 空間相関分析
+nav_order: 12
 ---
 
-# Rを用いた時空間分析
+# 第12回 空間相関分析
 
 [目次に戻る](../index.md)
 
 ## 概要
-Rを活用しオープンデータを用いて課題に取り組む
+Rを活用した空間相関の理論と分析手法について学ぶ
 
 ## ねらい（Learning Objectives）
 - 理論の要点を理解する。

@@ -1,15 +1,15 @@
 ---
 layout: default
-title: (演習2)QGISを用いた時空間分析
-nav_order: 9
+title: Rを用いた時空間分析
+nav_order: 14
 ---
 
-# (演習2)QGISを用いた時空間分析
+# 第14回 時空間分析
 
 [目次に戻る](../index.md)
 
 ## 概要
-QGISを活用しオープンデータを用いて課題に取り組む
+Rを活用しオープンデータを用いて課題に取り組む
 
 ## ねらい（Learning Objectives）
 - 理論の要点を理解する。
@@ -21,12 +21,13 @@ QGISを活用しオープンデータを用いて課題に取り組む
 - オープンデータを用いた簡単な分析を自力で再現できる。
 
 ## 事前準備（Preparation）
-- QGISのインストール（環境構築回で案内）。
-- サンプルデータ（オープンデータ）を取得できる準備。
+- RおよびRStudioのインストール（導入回で案内）。
+- Rパッケージの導入準備（tidyverse, sf など）。
 
 ## 使用ツール・環境（Tools）
-- QGIS 3.x
-- GDAL/OGR (QGIS同梱)
+- R (4.x推奨)
+- RStudio
+- 主要パッケージ：sf, spdep, tidyverse など
 
 ## 演習の流れ（Procedure）
 1. 導入：目的と全体像の確認。

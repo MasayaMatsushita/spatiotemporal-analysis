@@ -4,7 +4,7 @@ lectureName: R，Rstudioの使用
 nav_order: 10
 ---
 
-# R，Rstudioの使用
+# 第10回 R，Rstudioの使用
 
 [目次に戻る](../index.md)
 

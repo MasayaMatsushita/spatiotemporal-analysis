@@ -1,15 +1,15 @@
 ---
 layout: default
-title: (演習1)地理空間データ分析
-nav_order: 4
+title: (演習2)QGISを用いた時空間分析
+nav_order: 9
 ---
 
-# (演習1)地理空間データ分析
+# 第9回 QGISを用いた時空間分析
 
 [目次に戻る](../index.md)
 
 ## 概要
-QGISを活用しオープンデータを用いて地理空間データの可視化に取り組む
+QGISを活用しオープンデータを用いて課題に取り組む
 
 ## ねらい（Learning Objectives）
 - 理論の要点を理解する。
