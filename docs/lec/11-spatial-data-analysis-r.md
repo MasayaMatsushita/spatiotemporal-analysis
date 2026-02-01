@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 地理空間データ分析の基礎(R言語編)
+lectureName: R言語を用いた地理空間データ分析
 nav_order: 11
 ---
 
-# 地理空間データ分析の基礎(R言語編)
+# R言語を用いた地理空間データ分析
 
 [目次に戻る](../index.md)
 
