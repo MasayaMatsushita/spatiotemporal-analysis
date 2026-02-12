@@ -8,7 +8,26 @@
 
 ## 【Outline (in English)】
 
-This class is designed to help students understand spatio-temporal analysis theories and algorithms. The goals also include developing the ability to independently seek and retrieve open data. To facilitate quick and in-depth analysis, open-source application software including QGIS and R will be used. Students must bring their own laptops.
+[Overview]
+This class is designed to help students understand spatio-temporal analysis theories and algorithms. The goals also include developing the ability to independently seek and retrieve open data. To facilitate quick and in-depth analysis, open-source application software including QGIS and R will be used. 
+
+[Learning objectives]
+- Students understand the theories and algorithms used to perform spatio-temporal analysis and can explain the basic principles by which the application operates.
+- Students are able to obtain open data necessary for conducting spatio-temporal analysis and can apply various analytical methods using QGIS.
+- Students can perform analyses using the R language with the open data they have obtained.
+
+[Resources]
+Students must bring their own laptops.
+There is no required textbook.
+
+[Learning activieties outside of class]
+- Students should spend approximately four hours per week on preparation and review.
+- A background in statistics and information literacy are recommended.
+
+[Grading]
+The final score will be weighted as follows:
+- class engagement: 20%
+- class assignments: 80% (3 assignments)
 
 ---
 
@@ -53,7 +72,6 @@ This class is designed to help students understand spatio-temporal analysis theo
 
 - 本授業の準備・学習時間は，各4時間を標準とする．
 - 統計学，情報リテラシーの基礎を理解していることが望ましい．
-- 言語は問わないが，プログラミングに抵抗感がないことが望ましい．
 
 ---
 
