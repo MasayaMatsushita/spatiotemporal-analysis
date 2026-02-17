@@ -8,10 +8,6 @@ nav_order: 13
 
 [目次に戻る](../index.md)
 
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
-
 ## 本ページの目的
 
 - 大域空間統計量(GISA)と局所空間統計量(LISA)について理解を深める
