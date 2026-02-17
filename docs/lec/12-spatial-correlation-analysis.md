@@ -8,6 +8,10 @@ nav_order: 12
 
 [目次に戻る](../index.md)
 
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
 ## 本ページの目的
 
 - 空間相関とは何かについて理解を深める
