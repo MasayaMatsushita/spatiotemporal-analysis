@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>{{ page.title }}</title>
 
   <!-- MathJax 設定：インライン数式 $ ... $ を有効化 -->
   <script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-    }
-  };
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
   </script>
 
-  <!-- MathJax 本体 -->
-  https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  <!-- MathJax 本体（正しい script タグ） -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 <body>
   {{ content }}
