@@ -2,3 +2,12 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
+
+  math_engine_opts:
+      jsx: false
+  parse_block_html: true
+  syntax_highlighter_opts:
+    disable : true
+
+  syntax_highlighter: rouge
+  parse_span_html: true

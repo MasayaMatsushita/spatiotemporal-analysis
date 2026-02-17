@@ -4,7 +4,17 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!-- MathJax 設定：インライン数式 $ ... $ を有効化 -->
+  <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+  </script>
+
+  <!-- MathJax 本体 -->
+  https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 </head>
 <body>
   {{ content }}
