@@ -18,7 +18,7 @@ nav_order: 13
 
 今回は空間統計量について紹介しますが、はじめに各統計量の関係性について以下にまとめました。
 一つずつ順番に解説していきます。
-![picture](../materials/13/figure_1.png)
+![picture](../materials/13/figure_1.webp)
 
 ## 大域空間統計量(GISA)と局所空間統計量(LISA)
 
@@ -229,7 +229,7 @@ plot(pref[,"lmoran"], pal = pal, breaks=breaks, key.pos = 1)
 ```
 
 以下の結果が表示されたらokです
-![picture](../materials/13/figure_2.png)
+![picture](../materials/13/figure_2.webp)
 
 この結果を確認すると、東京都周辺に強い正の空間相関が見られることが確認できました。一方、山梨県ではこの値が負となっており、人口の大きい都県に囲まれていることがわかりました。
 
@@ -247,11 +247,11 @@ plot(pref[,"lmoran_p"], pal = pal, breaks=breaks, key.pos = 1)
 ```
 
 このような結果が得られました
-![picture](../materials/13/figure_3.png)
+![picture](../materials/13/figure_3.webp)
 
 この図は、赤は1%水準、薄いオレンジは10%水準で統計的に有意な空間分布を持つことを意味しています。例えば東京都周辺では統計的に人口が集中していることが確認されました。一方で、山梨県は周辺に人口が集中していることがわかりました。これは負の空間相関という意味です。この図だとわかりにくいので統計量と$p$値を組み合わせた図を下に示します。
 
-![picture](../materials/13/figure_4.png)
+![picture](../materials/13/figure_4.webp)
 塗りつぶした色を統計量、枠線を$p$値として表しています。
 
 このようにローカルモランI統計量は空間データの分布パターンをゾーンごとに評価、検定することができるツールです。
@@ -273,7 +273,7 @@ plot(pref[,"lmoran_p"], pal = pal, breaks=breaks, key.pos = 1)
 moran.plot(pref$population, listw=w, labels=pref$name, pch=20, xlim=c(-1000000, 15000000))
 ```
 
-![picture](../materials/13/figure_5.png)
+![picture](../materials/13/figure_5.webp)
 
 モラン散布図は、右上をホットスポット、右下が一人勝ち、左上が一人負け、左下がクールスポットとして表現されています。
 今回表示された都道府県は統計的に特徴のある点が代表として選定されています。

@@ -51,7 +51,7 @@ library(RColorBrewer)
 macやLinuxで開発をやった経験のある方はリポジトリという言葉に聞き覚えがある人がいるかもしれません。
 リポジトリを簡単に説明するとファイルやデータの保管場所のことです。特にプログラミングやソフトウェア開発では、ソースコードやドキュメント、設定ファイルなどをまとめて管理する場所を指します。
 RはCRANという場所でソフトウェアやライブラリの配布が行われています。
-![picture](../materials/11/figure_1.png)
+![picture](../materials/11/figure_1.webp)
 
 次に、以下のコードを実行してみてください。(先ほどのコードは削除しても問題ありません)
 
@@ -119,7 +119,7 @@ plot(pref[,"population"])
 ```
 
 こんな画像が出力されるはずです。
-![picture](../materials/11/figure_2.png)
+![picture](../materials/11/figure_2.webp)
 
 首都圏や京阪神などの人が多そうな都道府県の色が明るく表示されていますね。
 
@@ -139,7 +139,7 @@ plot(pref["density"],)
 
 新しく、densityという列成分を作成し、面積を人口で割った値を代入しています。
 このような結果が出るはずです。
-![picture](../materials/11/figure_3.png)
+![picture](../materials/11/figure_3.webp)
 
 可視化自体はうまくいっていますね。
 ただし、はっきりと色が変化しているのは東京都、神奈川県、大阪府くらいしかありません。
@@ -149,7 +149,7 @@ plot(pref["density"],)
 ## データをより見やすく加工する
 
 前の章では、都道府県の人口密度を可視化しました。このような結果を得ましたね。
-![picture](../materials/11/figure_3.png)
+![picture](../materials/11/figure_3.webp)
 この図にはいくつかの課題があります。
 
 - 首都圏以外の都道府県の色の区別がつかない
@@ -167,7 +167,7 @@ plot(pref["density"], breaks=breaks)
 ```
 
 このような結果が得られるはずです。
-![picture](../materials/11/figure_4.png)
+![picture](../materials/11/figure_4.webp)
 0から1000までのデータの色分けを細かくすることで、カラフルな画像を作成することができました。
 これで他の首都圏以外の都道府県でも人口密度の比較が簡単にできるようになりました。
 
@@ -191,7 +191,7 @@ plot(pref["density"], breaks=breaks, nbreaks=nc, pal=pal)
 ```
 
 このような結果が得られるはずです。
-![picture](../materials/11/figure_5.png)
+![picture](../materials/11/figure_5.webp)
 
 とても綺麗に可視化できましたね！
 こうやってみると、首都圏の人口密度がいかに高いことが分かりますね。
@@ -206,16 +206,16 @@ plot(pref["density"], breaks=breaks, nbreaks=nc, pal=pal)
 都道府県観光客数は、[公益社団法人日本観光振興協会 デジタル観光統計オープンデータ](https://www.nihon-kankou.or.jp/home/jigyou/research/d-toukei/)から取得することができます。
 執筆当初の最新データ(2025年9月)のデータ一月分をダウンロードします。どの年月のデータでも構いません。
 ただしこのデータと前章まで使用していた都道府県の名前が漢字とローマ字で異なっています。
-![picture](../materials/11/figure_6.png)
+![picture](../materials/11/figure_6.webp)
 取得したcsvデータの地域名称列を漢字からローマ字に変更してください。
 
 結果を示すとこのような形になります。
-![picture](../materials/11/figure_7.png)
+![picture](../materials/11/figure_7.webp)
 どうしても東京都の数が顕著になってしまいますね。
 (データの中身をみると他の道府県と比較して桁数が違いました)
 
 前章で紹介したように、色分けのしきい値を変えるとこのような結果を得ることができます。
-![picture](../materials/11/figure_8.png)
+![picture](../materials/11/figure_8.webp)
 変えた部分としては、しきい値の他にカラーマップも変えてみました。
 この部分については、個人の趣向が入るので独自性を出してみると良いでしょう。
 

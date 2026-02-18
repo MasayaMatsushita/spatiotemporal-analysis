@@ -16,7 +16,7 @@ nav_order: 5
 一つ例を出しましょう。休日に立川駅から池袋のサンシャインシティに遊びに行こうとしましょう。
 皆さんなら、まず何をしますか？集合時間とかを決める感じでしょうか。そうですね、14時に集合する感じにしましょう。
 GoogleMapを開き、池袋サンシャインシティに14時に着く想定で経路設定してみましょうか。
-![picture](../materials/05/figure_1.png)
+![picture](../materials/05/figure_1.webp)
 
 色々な経路が出てきましたね。この場合ですと、新宿で湘南新宿ラインに乗ると所要時間が最も短いことがわかりました。他にも埼京線や山手線も候補として挙げられていますね。
 わかりやすいように地図を使いましたが、最近では乗り換え検索アプリの登場によって出発駅と到着駅を入力すると、自動的に乗る電車や運賃が簡単に知ることができるようになりました。
@@ -37,18 +37,18 @@ QGIS上でネットワーク分析を行う手法について学習しましょ�
 ダウンロードしたデータを解凍し、path.shpとhospital.shpをQGIS上に取り込みます。
 
 取り込んだデータを見ると、街の道路データと病院の位置が表示されていますね。
-![picture](../materials/05/figure_9.png)
+![picture](../materials/05/figure_9.webp)
 病院間の最短経路を調べてみましょう。
 
 - 上部のリボンバーから「プロセシング」を選択、ツールボックスが表示されます。
 - ツールボックス内の「ネットワーク解析」ー「最短経路（指定始点から指定終点）」を選択。
-![picture](../materials/05/figure_5.png)
+![picture](../materials/05/figure_5.webp)
 - ネットワークを表すベクタレイヤ内には「Path」を選択。
 - 始点、終点に病院周辺を選択する（ちょっとコツが入ります）このような数値が表示されたら次へ
-![picture](../materials/05/figure_10.png)
+![picture](../materials/05/figure_10.webp)
 - 「実行」ボタンを押す
 - 新しく「出力レイヤ」がレイヤウィンドウに表示されているはずです。このレイヤを最上部に移動し、色や線の太さを変えると見栄えが良いでしょう。
-![picture](../materials/05/figure_11.png)
+![picture](../materials/05/figure_11.webp)
 
 このように複雑な計算をしなくても、QGIS上で自動的に最短経路を可視化することができました。
 
@@ -131,32 +131,32 @@ QGIS上でネットワーク分析を行う手法について学習しましょ�
 
 ここでは東小金井から熱海までJRを使った場合の最短経路を可視化してみましょう。
 このような経路を可視化することが目標です。
-![picture](../materials/05/figure_2.png)
+![picture](../materials/05/figure_2.webp)
 
 はじめに国土交通省から国土数値情報にある最新の[鉄道データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2023.html)をダウンロードしてください。
 ダウンロードしたらファイルを解凍し、N02-XXX_Station.shpとN02-XXX_RailroadSection.shpをQGISに取り込んでください。
 こんな感じでデータを表示しましょう。線やマーカーの色形は指定しません。お好みで。
-![picture](../materials/05/figure_3.png)
+![picture](../materials/05/figure_3.webp)
 ただし、鉄道に関しては「新幹線」、「JR在来線」、「公営鉄道(東京メトロなど)」、「民営鉄道(京王線など)」、「第三セクター(多摩モノレール)」の5つに分けられているようです。
 新幹線だけ線の太さを変えると見栄えが良いでしょう。
 
 一番下のレイヤにOpenStreetMapを挿入するといい感じに表示されます。
-![picture](../materials/05/figure_4.png)
+![picture](../materials/05/figure_4.webp)
 
 ここから本題です。JRを使って東小金井から熱海までの最短経路を可視化しましょう。
 
 - 上部のリボンバーから「プロセシング」を選択、ツールボックスが表示されます。
 - ツールボックス内の「ネットワーク解析」ー「最短経路（指定始点から指定終点）」を選択。
-![picture](../materials/05/figure_5.png)
+![picture](../materials/05/figure_5.webp)
 - ネットワークを表すベクタレイヤ内には「N02-XXX_RailroadSection」を選択。
 - 始点に東小金井駅を選択する（ちょっとコツが入ります）（139.523813,35.701568 [EPSG:4326]）このような数値が表示されたら次へ
-![picture](../materials/05/figure_6.png)
+![picture](../materials/05/figure_6.webp)
 - 終点に熱海駅を選択する（このときは、在来線の線路（細い方）を選択すること）
-![picture](../materials/05/figure_7.png)
+![picture](../materials/05/figure_7.webp)
 - 「実行」ボタンを押す (計算に少々時間がかかります)
-![picture](../materials/05/figure_8.png)
+![picture](../materials/05/figure_8.webp)
 - 新しく「出力レイヤ」がレイヤウィンドウに表示されているはずです。このレイヤを最上部に移動し、色や線の太さを変えると見栄えが良いでしょう。
-![picture](../materials/05/figure_2.png)
+![picture](../materials/05/figure_2.webp)
 
 出力された経路を確認すると、中央線で新宿、山手線で品川、そして東海道を経由していることが分かりました。
 

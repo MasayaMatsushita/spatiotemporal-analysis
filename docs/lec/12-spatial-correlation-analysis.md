@@ -45,13 +45,13 @@ but near things are more related than distant things."
 日本では、都市計画法に基づき、市街地を住宅・商業・工業などに区分し、土地利用を調整するための制度を設けています。
 ここでは、土地利用の調整については歴史的、また地理的な背景によって自治体によって様相が非常に異なります。ここでは、代表的な都市を紹介しましょう。
 
-![picture](../materials/12/figure_1.png)
+![picture](../materials/12/figure_1.webp)
 上の図は、神奈川県川崎市の用途地域の図になります。
 暖色が住居地域、寒色が工業地域を示しています。
 JR東海道線の隣接に商業地域があり、それを囲うように住居地域、臨海部に工業地域と綺麗に区分されていることが示されています。
 このように川崎市では近所同士では似たような建物が立つような都市計画を実施しているため、街中を歩いた時に、突然街の雰囲気がガラッと変わってしまうような体験をすることができるでしょう。
 
-![picture](../materials/12/figure_2.png)
+![picture](../materials/12/figure_2.webp)
 一方で、こちらの図は東京都墨田区の用途地域の図になります。
 川崎市とは異なり、住居地域(黄色)、商業地域(赤色)、工業地域(紫、青色)がランダムに配置されていることがわかります。
 
@@ -82,7 +82,7 @@ $d_M$が1、または2の例を以下の図にまとめました。$d_M = 1$ の
 
 | $d_M=1$ | $d_M=2$ |
 | ----- | ----- |
-| ![picture](../materials/12/figure_3.png) | ![picture](../materials/12/figure_7.png) |
+| ![picture](../materials/12/figure_3.webp) | ![picture](../materials/12/figure_7.webp) |
 
 一方で、**境界または点を共有するゾーン**は各次元の差の絶対値を計算し、その中で最大のものを2点間の距離とする考え方です。この距離はチェビシェフ距離と名付けられています。座標平面上の$AB$間の距離$d_C$は以下のように求めることができます。
 
@@ -94,7 +94,7 @@ $$
 
 | $d_C=1$ | $d_C=2$ |
 | ----- | ----- |
-| ![picture](../materials/12/figure_6.png) | ![picture](../materials/12/figure_8.png) |
+| ![picture](../materials/12/figure_6.webp) | ![picture](../materials/12/figure_8.webp) |
 
 マンハッタン距離とチェビシェフ距離を比較すると、斜めの関係をどのように取り扱うかによってどちらを採用するかを決めると良いことが理解できるでしょう。
 
@@ -102,21 +102,21 @@ $$
 
 | $k$=4 | $k$=8 |
 | ----- | ----- |
-| ![picture](../materials/12/figure_4.png) | ![picture](../materials/12/figure_5.png) |
+| ![picture](../materials/12/figure_4.webp) | ![picture](../materials/12/figure_5.webp) |
 
 **ゾーンによる方法**は、近所とそれ以外を明確に分ける方法として活用することができます。一方で、**距離減数関数を用いる方法**は、距離に応じて影響度を滑らかに変化させることができます。上式は反比例を用いた方法、下式は指数関数を用いた方法です。下表のように、反比例を用いた方法は、直近により大きな重みを与える一方で、指数関数を用いた方法は比較的遠くにも重みを与えます。
 
 | 反比例 | 指数関数 |
 | :---: | :---: |
 | $w_{i,j} = \frac{1}{d^\alpha_{i,j}}$ | $w_{i,j} = \exp\left(-\frac{d_{i,j}}{r}\right)$ |
-| ![picture](../materials/12/figure_9.png) | ![picture](../materials/12/figure_10.png) |
+| ![picture](../materials/12/figure_9.webp) | ![picture](../materials/12/figure_10.webp) |
 
 余談ですが、マンハッタン距離、ユークリッド距離、チェビシェフ距離は一つの式でまとめることができます。興味がある人は調べてみると良いでしょう。
 
 ## 近接行列
 
 上記の法を用いて、近さを数量として定義できました。これはあくまで点(領域)同士の近さを評価するためのもので、これを複数の点(領域)同士を比較できるようにする必要があります。そのためには**近接行列**という行列を紹介する必要があります。近接行列とは、ゾーン$i$と$j$の近さ$w_{i,j}$を要素にもつ行列です。具体例として、一都三県間の近接行列を作成しましょう。
-![figure11](../materials/12/figure_11.png)
+![figure11](../materials/12/figure_11.webp)
 一都三県の地理関係を上図に示しました。これらの近接性を地理的に接続しているか否かで評価した場合、近接行列は以下の式のようになります。
 
 $$
@@ -190,7 +190,7 @@ plot(st_geometry(pref), col="white", border="grey")
 plot(nb1, coords, add=TRUE, col="red", cex=0.01, lwd=1.15)
 ```
 
-![figure12](../materials/12/figure_12.png)
+![figure12](../materials/12/figure_12.webp)
 このような図が表示されたらOKです。ちなみにqueenの中身をFALSEに変えるとマンハッタン距離(ルーク型)になります。
 
 必須ではありませんが、近接行列(nb1)を元にどの都道府県で接続されているかを表形式で取得するプログラムを用意しました。適宜実行してみてください。
@@ -221,7 +221,7 @@ plot(nb1, coords, add=TRUE, col="red", cex=0.01, lwd=1.15)
 ```
 
 上のプログラムの解説をすると、近隣4ゾーンをknearneigh関数を用いて探索し、近傍情報をknn形式のオブジェクトで格納します。その後、knn2nb関数でnb形式に変換します。以下の図を出力できましたか？
-![figure13](../materials/12/figure_13.png)
+![figure13](../materials/12/figure_13.webp)
 
 最後に一定距離(150km)内のゾーンを近接とする場合について紹介します。
 以下のプログラムを実行してみましょう。
@@ -240,7 +240,7 @@ plot(nb1, coords, add=TRUE, col="red", cex=0.01, lwd=1.15)
 
 | シェビチェフ距離(クイーン型) | 最近隣4ゾーン | 一定距離(150km)以内 |
 | :---: | :---: | :---: |
-| ![picture](../materials/12/figure_12.png) | ![picture](../materials/12/figure_13.png) | ![picture](../materials/12/figure_14.png) |
+| ![picture](../materials/12/figure_12.webp) | ![picture](../materials/12/figure_13.webp) | ![picture](../materials/12/figure_14.webp) |
 
 ## まとめ
 

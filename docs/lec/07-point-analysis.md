@@ -13,7 +13,7 @@ nav_order: 7
 これまでに紹介してきた分析を通して、地理空間データの可視化ができるようになりました。
 しかし、可視化した図を相手に紹介したところで、納得がいく説明をすることは難しいです。
 具体的な例を紹介しましょう。
-![picture](../materials/07/figure_1.png)
+![picture](../materials/07/figure_1.webp)
 ネットワーク分析の時に作成した、鉄道駅データですね。
 例えば、東京都の行政区画に対する鉄道駅の密度を求めようとしましょう。
 市区町村ごとにアクセスのしやすさを説明できるかもしれません。
@@ -32,39 +32,39 @@ nav_order: 7
 鉄道駅やAEDなどの点データを地図上に表示するだけでは、分布の偏りを定量的に説明できません。
 そこで、メッシュを使って点の密度を可視化し、どの地域に集中しているかを明らかにします。
 前回、演習で用いた小金井市の公共施設に配置しているAEDデータを使用します。
-![picture](../materials/07/figure_2.png)
+![picture](../materials/07/figure_2.webp)
 
 点密度を分析するためには、まず対象地域を均等なメッシュで分割します。
 QGISでは、次の手順でグリッドを作成します。
 
 1. プロセシング → ツールボックス → ベクタ作成 → グリッドを作成 を選択。
-![picture](../materials/07/figure_3.png)
+![picture](../materials/07/figure_3.webp)
 2. ダイアログで以下を設定します
 
 - グリッドタイプ：長方形（Polygon）
 - 水平・垂直方向の間隔：0.005 degrees（約500m）
 - 出力グリッドのCRS：EPSG:4326（WGS84）
-![picture](../materials/07/figure_4.png)
+![picture](../materials/07/figure_4.webp)
 
 この設定により、地図上に均等なメッシュが生成されます。
-![picture](../materials/07/figure_5.png)
+![picture](../materials/07/figure_5.webp)
 
 次に、各メッシュ内に含まれる点の数を計算します。
 QGISの「ベクタ→解析ツール→ポリゴン内の点の数」を使い、
-![picture](../materials/07/figure_6.png)
+![picture](../materials/07/figure_6.webp)
 以下のダイアログに入力します。
 
 ポリゴンレイヤ：作成したグリッド
 ポイントレイヤ：AEDの位置情報
 を指定します。
-![picture](../materials/07/figure_7.png)
+![picture](../materials/07/figure_7.webp)
 
 結果として、新しいメッシュが作成されます。
 作成されたメッシュレイヤを右クリックして、属性テーブルを確認しましょう。
-![picture](../materials/07/figure_8.png)
+![picture](../materials/07/figure_8.webp)
 NUMPOINTS フィールドが追加されていますね。
 この値は、各メッシュ内の点の数、つまり500m四方にAEDが何個配置されているかを表しています。
-![picture](../materials/07/figure_9.png)
+![picture](../materials/07/figure_9.webp)
 
 しかし、この数値データは少数を含んだ値(double型)になっていますので、整数型(int型)のフィールドを作成しましょう。
 
@@ -72,10 +72,10 @@ NUMPOINTS フィールドが追加されていますね。
 - 出力する属性の名前を入力「NUMPOINTS_INT」
 - フィールド型をに「整数型（integer）」を選択
 - 式にround("NUMPOINTS")を入力
-![picture](../materials/07/figure_11.png)
+![picture](../materials/07/figure_11.webp)
 
 新しいフィールドが作成されました。
-![picture](../materials/07/figure_12.png)
+![picture](../materials/07/figure_12.webp)
 (一見同じに見えますが、新しく作ったデータは少数桁を含んでいません)
 
 最後に、NUMPOINTS_INT を使ってメッシュを色分けします。
@@ -85,9 +85,9 @@ NUMPOINTS フィールドが追加されていますね。
 - 値は「NUMPOINTS_INT」
 - モードは「等間隔分類」
 - 不透明度を50%にするといいかもしれません
-![picture](../materials/07/figure_13.png)
+![picture](../materials/07/figure_13.webp)
 okを選択すると、点が多いメッシュほど濃い赤で表示され、分布の偏りが視覚的にわかります。
-![picture](../materials/07/figure_14.png)
+![picture](../materials/07/figure_14.webp)
 
 これで、AEDの分布密度を可視化することができました。
 
@@ -100,7 +100,7 @@ okを選択すると、点が多いメッシュほど濃い赤で表示され、
 
 カーネル密度分析は犯罪発生マップなどに用いられる手法で、カーネル関数を用いてポイントの分布密度を連続的な密度局面としてモデル化する手法です。
 この手法を用いて可視化した例を下に示します。
-![picture](../materials/07/figure_15.png)
+![picture](../materials/07/figure_15.webp)
 
 どのように可視化しているか説明しますと、犯罪発生地点を示す点データがあるとします。
 このデータを用いて、犯罪発生がない場所の発生率を推定したいとします。

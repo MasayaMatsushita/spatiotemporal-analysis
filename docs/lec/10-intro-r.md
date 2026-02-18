@@ -30,16 +30,16 @@ Rと比較して前者は学習コストが低い反面、柔軟性や拡張性�
 1. CRANにアクセスし、パッケージをダウンロードする
 
 [CRAN](https://cran.r-project.org/)のサイト
-![picture](../materials/10/figure_1.png)
+![picture](../materials/10/figure_1.webp)
 
 - ここから自分が使っているOS(windows、macOS、その他)を選択する。
 - windowsの場合
-![picture](../materials/10/figure_3.png)
+![picture](../materials/10/figure_3.webp)
   - 初めてのインストールの時はbaseを選択
-![picture](../materials/10/figure_4.png)
+![picture](../materials/10/figure_4.webp)
   - Download R-4.X.X for Windowsを選択し、ダウンロードする。(執筆時点では、4.5.1)
 - macOSの場合
-![picture](../materials/10/figure_2.png)
+![picture](../materials/10/figure_2.webp)
   - Download R-4.X.X arm64(または、x86_64).pkgを選択し、ダウンロードする。(執筆時点では、4.5.1)
 *基本的にはarm64で良いが、Intel Chipのmac(2020年以前)を使用している場合はx86_64を選択すること。
 
@@ -53,15 +53,15 @@ Rと比較して前者は学習コストが低い反面、柔軟性や拡張性�
 
 - macOSの場合
   - R-4.X.X-arm64.pkgを実行し、「続ける」、「同意する」、または「インストール」を選択し、Rをインストールする。
-  ![picture](../materials/10/figure_5.png)
-  ![picture](../materials/10/figure_6.png)
+  ![picture](../materials/10/figure_5.webp)
+  ![picture](../materials/10/figure_6.webp)
 
 1. インストールできたかを確認する
 
 インストールが完了すると、デスクトップ上にRのアイコンが表示される。これを選択する。
-  ![picture](../materials/10/figure_7.png)
+  ![picture](../materials/10/figure_7.webp)
 以下のような画面が表示される
-  ![picture](../materials/10/figure_8.png)
+  ![picture](../materials/10/figure_8.webp)
 これは、コンソール画面といい、コマンドを入力するとすぐに結果が返ってくる仕組みになっている。この画面を使って実際に計算してみる。
 
 ```R
@@ -75,7 +75,7 @@ Rと比較して前者は学習コストが低い反面、柔軟性や拡張性�
 > pie(dv)
 ```
 
-![picture](../materials/10/figure_9.png)
+![picture](../materials/10/figure_9.webp)
 足し算、掛け算(バツではなく*を使う)、割り算、そして円グラフの描画ができた。これでRのインストールができたことを確認した。
 
 ## RStudioのインストール
@@ -86,17 +86,17 @@ Rと比較して前者は学習コストが低い反面、柔軟性や拡張性�
 
 1. RStduio Desktopのダウンロード
 [RStduio Desktop](https://rstudio.com/products/rstudio-desktop/)のサイトにアクセスし、自分の使用しているOSに該当するパッケージをダウンロードする。
-![picture](../materials/10/figure_10.png)
+![picture](../materials/10/figure_10.webp)
 
 2. パッケージのインストール
 ダウンロードしたパッケージを選択すると、インストーラーが起動する。そのままインストールを続ける。
 インストールが完了すると、デスクトップ上にRStudioのアイコンが表示される。これを選択する
-![picture](../materials/10/figure_11.png)
+![picture](../materials/10/figure_11.webp)
 以下のような画面が表示される
-![picture](../materials/10/figure_12.png)
+![picture](../materials/10/figure_12.webp)
 左下のウィンドウは、Rのインストールの時に紹介したコンソール画面である。上記のように先ほどのコマンドを入力することができる。
 実際の開発では、左上のエディタ画面でプログラムコードを記述する。以下のように記述してみると、左下や右下に結果が表示される。
-![picture](../materials/10/figure_13.png)
+![picture](../materials/10/figure_13.webp)
 さらに右上には、プログラム実行後の変数の値を確認することもできる。
 
 ## 変数と基本演算子

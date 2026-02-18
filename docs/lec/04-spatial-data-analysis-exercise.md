@@ -15,7 +15,7 @@ nav_order: 4
 ## 成果物の目標例
 
 今回の成果物の目標例を以下に示します。
-![picture](../materials/04/figure_1.png)
+![picture](../materials/04/figure_1.webp)
 
 この図は、墨田区の文化財一覧を点で表示し、行政区域や周辺の路線を線で表現しました。
 
@@ -65,12 +65,12 @@ nav_order: 4
 
 - [基盤地図ダウンロードサービス](https://service.gsi.go.jp/kiban/)にアクセス
 - 「基盤地図情報」ー「基本項目」を選択
-  - ![picture](../materials/04/figure_2.png)
+  - ![picture](../materials/04/figure_2.webp)
 - 取得したい市区町村を検索し、該当するメッシュを選択、ダウンロードに「追加」
-  - ![picture](../materials/04/figure_3.png)
+  - ![picture](../materials/04/figure_3.webp)
   - 「追加」ボタンを押下すると、「削除」という文字に変わります
 - 右上のダウンロード等をクリックし、ダウンロードファイルリストから追加したファイルを選択、ダウンロードする
-  - ![picture](../materials/04/figure_4.png)
+  - ![picture](../materials/04/figure_4.webp)
 
 例に出した多摩市は一つのセルで十分でしたが、他の市区町村では複数のダウンロードが必要な場合があります。判断に困った場合は相談してください。
 

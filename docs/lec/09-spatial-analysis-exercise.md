@@ -30,7 +30,7 @@ nav_order: 9
 上記を実施し、図を作成する際の工夫した点についてまとめること
 
 ここでは一例として、「小金井市のAED設置箇所一覧」のデータの可視化を表示します。
-![picture](../materials/06/figure_9.png)
+![picture](../materials/06/figure_9.webp)
 
 ### 第7回より メッシュによる点密度の表示
 
@@ -42,7 +42,7 @@ nav_order: 9
 上記を実施し、図を作成する際の工夫した点についてまとめること
 
 ここでは一例として、「小金井市のAED設置箇所一覧」のデータの可視化を表示します。
-![picture](../materials/07/figure_14.png)
+![picture](../materials/07/figure_14.webp)
 
 ## （演習2）ラスタデータの分析
 
@@ -56,14 +56,14 @@ nav_order: 9
 (3x3、3x4、または4x4がいいかと思います)
 
 例として表参道周辺を選択した場合を表示します
-![picture](../materials/09/figure_1.png)
+![picture](../materials/09/figure_1.webp)
 
 提出物には以下のデータを含めること
 
 - **標高データ(可視化がわかりやすいように色分けすること)**
 - **地形断面図**
   - 可視化の例(第8回で実践しました)
-  - ![picture](../materials/08/figure_12.png)
+  - ![picture](../materials/08/figure_12.webp)
 
 ## 課題の提出方法
 

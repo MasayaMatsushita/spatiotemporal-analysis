@@ -46,15 +46,15 @@ GIS上ではよく、衛星画像や標高データなどによく用いられ�
 QGISを起動し、「データソースマネージャ>ラスタ」からラスタデータを表示してください。
 
 こんな感じの12個の四角形が隣接して表示されていると思います。
-![picture](../materials/08/figure_5.png)
+![picture](../materials/08/figure_5.webp)
 一つ一つに濃淡があり、どの地点が高いのか低いのかいまいちよく分かりません。
 一つの大きな四角形として表示しましょう。
 「ラスタ>その他>結合(gdal_merge)」を選択
 入力レイヤに12個のレイヤを登録し、実行
-![picture](../materials/08/figure_3.png)
+![picture](../materials/08/figure_3.webp)
 
 濃淡が統一された一つの四角形が表示されましたね！
-![picture](../materials/08/figure_4.png)
+![picture](../materials/08/figure_4.webp)
 最初に表示した12個の四角形はQGIS上から削除しても構いません。
 
 作成したレイヤを少し調整しましょう。
@@ -63,12 +63,12 @@ QGISを起動し、「データソースマネージャ>ラスタ」からラス
 補完方法は「線形」、モードは「連続的」、あとは自動でやってみました。
 このあと、色々設定をいじってみます。
 下の画像を参考にしてください。
-![picture](../materials/08/figure_6.png)
+![picture](../materials/08/figure_6.webp)
 この後、下にレイヤを重ねますので、透明度を30~70%あたりにするといいでしょう。
 
 さて、OpenStreetMapを下のレイヤに設定して原宿周辺の高さを可視化してみましょう。
 どんな感じでしょうか。
-![picture](../materials/08/figure_7.png)
+![picture](../materials/08/figure_7.webp)
 
 色が濃いほど標高が高く、薄いと標高が低いという結果を示しています。
 こうやってみると、道路や区画整理は標高に強く影響がありそうだなぁという感じが見えてきますね。
@@ -78,9 +78,9 @@ QGISを起動し、「データソースマネージャ>ラスタ」からラス
 10mおきに値を決めるとして4分割くらいにしたらいい感じに分けられそうです。
 補完方法を「離散」、モードは「等間隔分類」、分類数は4にしました。
 あとは、標高が高くなるにつれて赤に近づくように色を考えてみました。
-![picture](../materials/08/figure_8.png)
+![picture](../materials/08/figure_8.webp)
 このような結果になりました。
-![picture](../materials/08/figure_9.png)
+![picture](../materials/08/figure_9.webp)
 標高が低いところ、中くらい、高いところに分類することができました。さっきと違う印象になりましたね。
 
 ## ラスターデータとDEM(Digital Elevation Model)
@@ -99,15 +99,15 @@ DTMはDEMの仲間です。
 原宿周辺の地形断面図を作成してみましょう。
 最初に作成済みのレイヤを右クリックし、プロパティを選択。
 標高からConfigurationで「Represents Elevation Surface」を選択
-![picture](../materials/08/figure_10.png)
+![picture](../materials/08/figure_10.webp)
 
 次に、「ビュー>標高断面図」を選択
 下のウィンドウが表示されました。
-![picture](../materials/08/figure_11.png)
+![picture](../materials/08/figure_11.webp)
 新しく表示されたウィンドウの、左から三番目のボタン「曲線キャプチャ」を選択
 レイヤの上に線が弾けます。
 そして出力レイヤにチェックマークを引くと、標高断面図が作成できます！
-![picture](../materials/08/figure_12.png)
+![picture](../materials/08/figure_12.webp)
 
 山手線の左側は起伏があるってこと、理解できましたね！
 
