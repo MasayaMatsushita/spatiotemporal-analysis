@@ -11,3 +11,6 @@ kramdown:
 
   syntax_highlighter: rouge
   parse_span_html: true
+
+include:
+  - assets/css/style.css
