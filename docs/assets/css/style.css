@@ -85,6 +85,16 @@ table th {
   background-color: #f2f2f2;
 }
 
+/* 表の中の画像はセルの幅に合わせて縮小し、はみ出さないようにする */
+table img {
+  max-width: 100%;   /* セルの中で収まるようにする */
+  height: auto;
+  padding: 4px;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+}
+
 /* ====== 数式 ====== */
 mjx-container {
   font-size: 110%;
