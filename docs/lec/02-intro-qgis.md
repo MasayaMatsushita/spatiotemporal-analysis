@@ -14,9 +14,6 @@ nav_order: 2
 - QGISのインストールを行う
 - QGISで地図情報を表示できるようになる
 
-この教材は、[クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス](http://creativecommons.org/licenses/by-nc-sa/4.0/)で提供されます。
-![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
-
 ## GISとは
 
 地理情報システム(Geographic Information System; GIS)は、地理的位置を手がかりに、位置に関する情報を持ったデータ(空間データ)を総合的に管理・加工し、視覚的に表示し、高度な分析や迅速な判断を可能にする技術です。

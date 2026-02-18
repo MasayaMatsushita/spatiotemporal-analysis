@@ -230,6 +230,3 @@ plot(pref["density"], breaks=breaks, nbreaks=nc, pal=pal)
 本教材は、[Rではじめる地理空間データの統計解析入門](https://www.kspub.co.jp/book/detail/5273036.html)や以下の資料をもとに作成しました。
 
 - [公益社団法人日本観光振興協会 デジタル観光統計オープンデータ](https://www.nihon-kankou.or.jp/home/jigyou/research/d-toukei/)
-
-この教材は、[クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス](http://creativecommons.org/licenses/by-nc-sa/4.0/)で提供されます。
-![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)

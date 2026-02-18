@@ -128,6 +128,3 @@ QGISでも試すことができますので興味のある方は挑戦してみ�
 - [GIS実習オープン教材](https://gis-oer.github.io/gitbook/book/)
 - [国土数値情報 鉄道データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2023.html)
 - [東京都オープンデータカタログサイトホームページ](https://portal.data.metro.tokyo.lg.jp/)
-
-この教材は、[クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス](http://creativecommons.org/licenses/by-nc-sa/4.0/)で提供されます。
-![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
