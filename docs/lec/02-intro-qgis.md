@@ -15,7 +15,7 @@ nav_order: 2
 - QGISで地図情報を表示できるようになる
 
 この教材は、[クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス](http://creativecommons.org/licenses/by-nc-sa/4.0/)で提供されます。
-![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.webp)
+![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
 ## GISとは
 
