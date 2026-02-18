@@ -15,7 +15,7 @@ nav_order: 2
 - QGISで地図情報を表示できるようになる
 
 この教材は、[クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス](http://creativecommons.org/licenses/by-nc-sa/4.0/)で提供されます。
-![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.webp)
 
 ## GISとは
 
@@ -38,7 +38,7 @@ GISの基本操作に必要な機能を網羅しているだけでなく、Web�
 
 - windowsの場合
 
-![picture](../materials/02/figure_1.jpg)
+![picture](../materials/02/figure_1.webp)
 ダウンロードしたmsiファイルをダブルクリックするとインストールが始まります。(左上)
 基本的にはnextを選択して次に進んでください。適宜、スタートやデクストップにアイコンを保存するかを選択してください。(右上)
 アプリケーションを保存するフォルダには、**日本語を含まない**ようにしてください。(左下)
@@ -49,7 +49,7 @@ Finishを選択するとインストールが完了します。(右下)
 
 macOSは、2020年以前に発売したパソコンとそれ以降に発売したパソコンでインストールするメディアが異なります。
 自身にあった方を選択してください。
-![picture](../materials/02/figure_2.png)
+![picture](../materials/02/figure_2.webp)
 dmgファイルを展開し、QGISのアイコンをアプリケーションフォルダにD&Dするとインストールが完了します。
 (注)macOS側でセキュリティの警告が出る場合があります。その場合は、「プライバシーとセキュリティ」設定でそのアプリのアクセス権をオンにすることで、アプリを許可することができます。
 
@@ -58,15 +58,15 @@ dmgファイルを展開し、QGISのアイコンをアプリケーションフ�
 インストールしたQGISの動作確認の一環で、小金井市に存在する公共施設内のAED設置箇所の可視化を挑戦してみましょう。
 
 (目標)
-![picture](../materials/02/figure_15.png)
+![picture](../materials/02/figure_15.webp)
 
 ### QGISに標準搭載されているOpenStreetMapの表示
 
 アプリケーションのホーム画面から「新規プロジェクト」を選択
-![picture](../materials/02/figure_3.png)
+![picture](../materials/02/figure_3.webp)
 
 画面左の「ブラウザ」ウィンドウから、「XYZタイル」-「OpenStreetMap」を選択
-![picture](../materials/02/figure_4.png)
+![picture](../materials/02/figure_4.webp)
 最初は世界地図全体が表示されますが、拡大すると画像のような具体的な都市名が表示されます。
 
 ### 東京都小金井市が所管するAEDの可視化
@@ -77,7 +77,7 @@ dmgファイルを展開し、QGISのアイコンをアプリケーションフ�
 緯度・経度のデータをうまく活用するとQGIS内のOpenStreetMapにうまくピンを刺すことができそうです。やってみましょう。
 
 - このアイコンを選択
-![picture](../materials/02/figure_5_1.png)
+![picture](../materials/02/figure_5_1.webp)
 
 - 左のカラムから「CSVテキスト」を選択
 - ファイル名にダウンロードしたファイル名のあるパスを指定
@@ -87,10 +87,10 @@ dmgファイルを展開し、QGISのアイコンをアプリケーションフ�
 - X値に「経度」、Y値に「緯度」を選択 (間違えないよう注意！)
 - ジオメトリのCRSは「EPSG:4326 - WGS 84」を選択
 - 右下の「追加」を選択
-![picture](../materials/02/figure_5.png)
+![picture](../materials/02/figure_5.webp)
 
 うまくデータを取り込むと、小金井市周辺に数十個の点が表示されます。
-![picture](../materials/02/figure_6.png)
+![picture](../materials/02/figure_6.webp)
 この時は点の色や形は指定していないので、例と異なる場合があります。
 
 ### 東京都の市区町村の境界の可視化
@@ -102,20 +102,20 @@ dmgファイルを展開し、QGISのアイコンをアプリケーションフ�
 ダウンロードしたファイルをQGISに取り込みます。
 
 - このアイコンを選択
-![picture](../materials/02/figure_5_1.png)
+![picture](../materials/02/figure_5_1.webp)
 
 - 左のカラムから「ベクタ」を選択
 - ファイル名にダウンロードしたファイル名のあるパスを指定
 - 右下の「追加」を選択
-![picture](../materials/02/figure_7.png)
+![picture](../materials/02/figure_7.webp)
 
 取り込みが成功すると、QGIS上に東京都の市区町村の境界が表示されます。
-![picture](../materials/02/figure_8.png)
+![picture](../materials/02/figure_8.webp)
 この時も色は特にしていないので何色でも構いません。
 
 画像のようにQGISは取り込んだデータの順でレイヤを重ねていくため、最初に取り込んだOpenStreetMapやAEDの設置データが隠れてしまいます。
 AEDの設置データを一番上のレイヤにくるように左下のレイヤ内の一番上に「08_aed」を移動しましょう。
-![picture](../materials/02/figure_9.png)
+![picture](../materials/02/figure_9.webp)
 
 さて、小金井市の境界内に大体の点が表示されていることがわかりました。
 OpenStreetMapの層も表示しておきましょう。
@@ -123,7 +123,7 @@ OpenStreetMapの層も表示しておきましょう。
 - 左下レイヤウィンドウから「N03-21_13_210101」を右クリック
 - 「プロパティ」を選択
 - プロジェクトスタイルから「outline blue」を選択
-![picture](../materials/02/figure_10.png)
+![picture](../materials/02/figure_10.webp)
 色は特に指定しませんが、画像では黒を選択しています。
 
 さて、表示されたデータを見ると境界外に点データが表示されていることがわかりました。
@@ -131,15 +131,15 @@ OpenStreetMapの層も表示しておきましょう。
 
 - 左下レイヤウィンドウから「08_aed」を右クリック
 - 「属性テーブルを開く」を選択
-![picture](../materials/02/figure_11.png)
+![picture](../materials/02/figure_11.webp)
 
 表テーブルが表示されました。(08_aedのデータであることを確認しましょう)
 
 - このアイコンを選択
-![picture](../materials/02/figure_12_1.png)
+![picture](../materials/02/figure_12_1.webp)
 小金井市の境界外にある点データを選択 (選択すると黄色に変化します)
 すると、属性テーブル内に選択されたデータが強調表示されます。
-![picture](../materials/02/figure_12.png)
+![picture](../materials/02/figure_12.webp)
 確かに、隣の小平市の施設内にあることがわかりました。
 
 ### 不必要なデータの非表示
@@ -149,23 +149,23 @@ OpenStreetMapの層も表示しておきましょう。
 
 - 左下のレイヤウィンドウから「08_aed」を右クリック
 - 「フィルタ」を選択
-![picture](../materials/02/figure_13.png)
+![picture](../materials/02/figure_13.webp)
 
 - フィールドのテーブルから「所在地_市区町村」を選択
 - 値から「すべて」を選択
-![picture](../materials/02/figure_14.png)
+![picture](../materials/02/figure_14.webp)
 なんと、山梨県北杜市にもデータがあることが判明しました
-![picture](../materials/02/figure_16.png)
+![picture](../materials/02/figure_16.webp)
 したがって、小平市と北杜市のデータを非表示にしてみましょう。
 
 - 「所在地_市区町村」をダブルクリック
 - 演算子から「=」をクリック
 - 値から「小金井市」をダブルクリック
 フィルタ式が下図のように表示されたら「OK」を選択
-![picture](../materials/02/figure_17.png)
+![picture](../materials/02/figure_17.webp)
 
 QGIS上で小金井市以外のデータが非表示になっていたら作業は完了です！
-![picture](../materials/02/figure_15.png)
+![picture](../materials/02/figure_15.webp)
 
 *(重要) このデータは「領域分析」で使用しますので必ず**保存**してください。
 
