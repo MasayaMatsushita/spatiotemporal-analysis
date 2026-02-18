@@ -1,0 +1,7 @@
+img {
+  max-width: 800px; /* ← ここを好みで変更 (800〜1000px推奨) */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+}
