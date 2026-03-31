@@ -10,7 +10,7 @@ nav_order: 2
 
 ## この講義の内容
 
-{: .card }
+{: .card .card-toc }
 
 - [本ページの目的](#purpose)
 - [GISとは](#what-is-gis)
