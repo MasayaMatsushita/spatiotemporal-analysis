@@ -8,7 +8,7 @@ nav_order: 2
 
 [目次に戻る](../index.md)
 
-## この講義の内容
+## この講義の目次
 
 {: .card .card-toc }
 
