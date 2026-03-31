@@ -12,14 +12,14 @@ nav_order: 2
 
 {: .card }
 
-- #purpose
-- #what-is-gis
-- #what-is-qgis
-- #install
-- #check
-- #hide-data
-- #summary
-- #refs
+- [本ページの目的](#purpose)
+- [GISとは](#what-is-gis)
+- [QGISとは](#what-is-qgis)
+- [QGISのインストール](#install)
+- [QGISの動作確認](#check)
+- [不必要なデータの非表示](#hide-data)
+- [まとめ](#summary)
+- [参考資料](#refs)
 
 ## 本ページの目的 {#purpose}
 
