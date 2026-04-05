@@ -15,7 +15,7 @@ nav_order: 3
 
 - [本ページの目的](#purpose)
 - [空間データとは](#what-is-spatial-data)
-- [空間データの可視化例] (#example-of-visualization)
+- [空間データの可視化例](#example-of-visualization)
 - [空間データの種類](#spatial-data)
 - [座標参照系(CRS)](#CRS)
 - [ベクタデータを使った演習](#vector-data-exe)
