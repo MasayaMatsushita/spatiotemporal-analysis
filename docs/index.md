@@ -1,4 +1,4 @@
-# 時系列解析
+# 時空間解析
 
 ## 【授業の概要と目的（何を学ぶか）】Outline and objectives
 
