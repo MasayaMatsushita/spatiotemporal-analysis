@@ -187,4 +187,4 @@ QGIS上でネットワーク分析を行う手法について学習しましょ�
 本教材は、以下の資料をもとに作成しました。
 
 - [GIS実習オープン教材](https://gis-oer.github.io/gitbook/book/)
-- [国土数値情報 鉄道データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2023.html)å
+- [国土数値情報 鉄道データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2023.html)
