@@ -98,6 +98,7 @@ nav_order: 4
 
 ## 課題の提出方法 {#how-to-submit}
 
-Google Formで提出
+こちらの[フォーム](https://docs.google.com/forms/d/e/1FAIpQLSc8uMM_6dYKVT0h8LJ57QqX7FgxvpmwjyjTEuZ46aQUjw41GA/viewform?usp=publish-editor)に提出すること
 
-提出期限：5月21日 23:59まで
+提出期限：5月21日 17:00まで
+（課題の質問については、講義中またはメールで受け付けます。）
