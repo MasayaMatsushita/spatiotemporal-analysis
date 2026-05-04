@@ -201,6 +201,8 @@ plot(pref["density"], breaks=breaks, nbreaks=nc, pal=pal)
 また、今回紹介したコードを活用して、他の地図(アメリカやイギリスなど)でも応用することができます。
 興味があればやってみましょう。
 
+## パレート図の作成
+
 ## 参考文献
 
 本教材は、[Rではじめる地理空間データの統計解析入門](https://www.kspub.co.jp/book/detail/5273036.html)をもとに作成しました。
