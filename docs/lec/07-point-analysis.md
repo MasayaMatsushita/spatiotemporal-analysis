@@ -16,7 +16,6 @@ nav_order: 7
 - [本講義の目的](#purpose)
 - [メッシュによる点密度の表示](#point-density)
 - [カーネル密度推計](#kernel)
-- [ドロネー三角形](#delaunay)
 - [まとめ](#summary)
 - [参考資料](#refs)
 
