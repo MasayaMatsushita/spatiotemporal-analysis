@@ -17,7 +17,7 @@ nav_order: 8
 - [はじめに](#intro)
 - [数値標高モデルの視覚的分析](#elevation-model)
 - [ラスターデータとDEM](#dem)
-- [地形断面図の作成] (#topographic)
+- [地形断面図の作成](#topographic)
 - [まとめ](#summary)
 - [演習](#exe)
 - [参考資料](#refs)
