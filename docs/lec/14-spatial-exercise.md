@@ -46,13 +46,13 @@ nav_order: 14
 *政令指定都市にある区の人口は分析に含めないとする（例：札幌市 中央区・北区...はすべて札幌市として分析する）
 
 下図のように絞り込み条件を市（特別区部を除く）と町・村を選択するとよい。
-![picture](../materials/14/figure_1.png)
+![picture](../materials/14/figure_1.webp)
 
 データの種別は（A1101 総人口（人））を選択すること。下図を参考にするとよい。
-![alt text](../materials/14/figure_2.png)
+![alt text](../materials/14/figure_2.webp)
 
 ダウンロード設定は以下の図を参考にするとよい。
-![alt text](../materials/14/figure_3.png)
+![alt text](../materials/14/figure_3.webp)
 
 - ダウンロード範囲：ページ上部の選択項目（操作年）
 - ファイル形式：CSV形式(UTF-8(BOM有り))
