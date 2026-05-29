@@ -82,23 +82,11 @@ NUMPOINTS フィールドが追加されていますね。
 この値は、各メッシュ内の点の数、つまり500m四方にAEDが何個配置されているかを表しています。
 ![picture](../materials/07/figure_9.webp)
 
-しかし、この数値データは少数を含んだ値(double型)になっていますので、整数型(int型)のフィールドを作成しましょう。
-
-- 新規フィールドを作成にチェック
-- 出力する属性の名前を入力「NUMPOINTS_INT」
-- フィールド型をに「整数型（integer）」を選択
-- 式にround("NUMPOINTS")を入力
-![picture](../materials/07/figure_11.webp)
-
-新しいフィールドが作成されました。
-![picture](../materials/07/figure_12.webp)
-(一見同じに見えますが、新しく作ったデータは少数桁を含んでいません)
-
-最後に、NUMPOINTS_INT を使ってメッシュを色分けします。
+最後に、NUMPOINTS を使ってメッシュを色分けします。
 作業中のメッシュレイヤを右クリックして、プロパティを選択。
 
 - 分類方法は「連続値による定義」
-- 値は「NUMPOINTS_INT」
+- 値は「NUMPOINTS」
 - モードは「等間隔分類」
 - 不透明度を50%にするといいかもしれません
 ![picture](../materials/07/figure_13.webp)
