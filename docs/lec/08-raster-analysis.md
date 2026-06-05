@@ -142,7 +142,7 @@ DTMはDEMの仲間です。
 
 原宿周辺の地形断面図を作成してみましょう。
 最初に作成済みのレイヤを右クリックし、プロパティを選択。
-標高からConfigurationで「Represents Elevation Surface」を選択
+標高から範囲設定(Configuration)で「標高サーフェスを代表(Represents Elevation Surface)」を選択
 ![picture](../materials/08/figure_10.webp)
 
 次に、「ビュー>標高断面図」を選択
