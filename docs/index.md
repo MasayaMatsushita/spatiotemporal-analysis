@@ -35,11 +35,11 @@
 | 7 | [点データ分析](./lec/07-point-analysis.md)  | 点データの分析手法に関する理論と手法について学ぶ |
 | 8 | [ラスタデータの分析](./lec/08-raster-analysis.md)  | ラスタデータの分析方法に関する理論と手法について学ぶ |
 | 9 | [QGISを用いた時空間分析](./lec/09-spatial-analysis-exercise.md)  | オープンデータを用いて地理空間データを可視化する |
-| 10 | R，Rstudioの使用<!-- [R，Rstudioの使用](./lec/10-intro-r.md) --> | RおよびRStudioの実行環境を構築し，R言語の使い方について学ぶ |
-| 11 | R言語を用いた地理空間データ分析<!-- [R言語を用いた地理空間データ分析](./lec/11-spatial-data-analysis-r) --> | Rを活用した地理空間データの分析手法について学ぶ |
-| 12 | 空間相関分析<!-- [空間相関分析](./lec/12-spatial-correlation-analysis.md) --> | 空間相関の理論と分析手法について学ぶ |
-| 13 | 空間統計量<!-- [空間統計量](./lec/13-spatial-stat.md) --> | 空間統計量の理論と分析手法について学ぶ |
-| 14 | 時空間分析<!-- [時空間解析](./lec/14-spatial-exercise.md) -->  | Rを使用し，オープンデータを用いて地理空間データの可視化と解析を行う |
+| 10 | [R，Rstudioの使用](./lec/10-intro-r.md) | RおよびRStudioの実行環境を構築し，R言語の使い方について学ぶ |
+| 11 | [R言語を用いた地理空間データ分析](./lec/11-spatial-data-analysis-r) | Rを活用した地理空間データの分析手法について学ぶ |
+| 12 | [空間相関分析](./lec/12-spatial-correlation-analysis.md) | 空間相関の理論と分析手法について学ぶ |
+| 13 | [空間統計量](./lec/13-spatial-stat.md) | 空間統計量の理論と分析手法について学ぶ |
+| 14 | [時空間解析](./lec/14-spatial-exercise.md) | Rを使用し，オープンデータを用いて地理空間データの可視化と解析を行う |
 
 ---
 
