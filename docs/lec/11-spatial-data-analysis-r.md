@@ -204,15 +204,50 @@ plot(pref["density"], breaks=breaks, nbreaks=nc, pal=pal)
 ## パレート図の作成
 
 パレート図は、数値が大きい順に並べた「棒グラフ」と、その累積比率を示す「折れ線グラフ」を組み合わせた複合グラフです。
-今回使用した都道府県の人口密度のように構成比の集中度合いをみるのに適したグラフです。
+今回使用した都道府県の人口のように構成比の集中度合いをみるのに適したグラフです。
 Excelでも作ることができますが、Rを用いると簡単に作れますのでここで紹介します。
 
 ```R
-準備中
+library(sf)
+library(NipponMap)
+
+shp <- system.file("shapes/jpn.shp", package = "NipponMap")[1]
+pref <- read_sf(shp)
+
+# 人口の多い順にソート
+df <- pref |>
+  st_drop_geometry() |>
+  dplyr::select(name, population) |>
+  dplyr::arrange(desc(population))
+
+# 累積割合
+df$cum_ratio <- cumsum(df$population) / sum(df$population)
+
+# --- パレート図の作成 ---
+par(mar = c(7, 5, 3, 5))
+
+pop_man <- df$population / 1e6      # 1,000,000=1e6
+ymax <- max(pop_man)
+
+bp <- barplot(pop_man,
+              names.arg = df$name,
+              las = 2,
+              col = "skyblue",
+              ylab = "人口（100万人）",
+              cex.names = 0.6)
+
+# 累積曲線（実際は点）
+lines(bp, df$cum_ratio * ymax,
+      type = "b", pch = 19, col = "red")
+
+# 右軸の設定
+ticks <- seq(0, 1, by = 0.2)
+axis(4, at = ticks * ymax, labels = paste0(ticks * 100, "%"))
+mtext("累積割合", side = 4, line = 3)
 ```
 
-このように人口密度が高い東京都を順にソートされた棒グラフと累積比率を示すグラフを示すことができました。
-準備中
+このように人口が高い東京都を順にソートされた棒グラフと累積比率を示すグラフを示すことができました。
+![picture](../materials/11/figure_9.png)
 
 ## 参考文献
 
