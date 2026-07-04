@@ -223,7 +223,7 @@ Moran I statistic       Expectation          Variance
 ### ローカルモラン I 統計量の計算
 
 ```R
-lmoran <- localmoran.test(pref$population, listw = w, alternative = "two.sided")
+lmoran <- localmoran(pref$population, listw = w, alternative = "two.sided")
 ```
 
 取得した統計量を地図上に描画しましょう。
