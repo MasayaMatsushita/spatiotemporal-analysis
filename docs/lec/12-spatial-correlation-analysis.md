@@ -187,6 +187,7 @@ pref <- st_transform(pref0b, crs=6677) #平面直角座標系第9系のEPSGコ�
 ```R
 # クイーン型の近接行列の可視化
 nb1 <- poly2nb(pref, queen=TRUE)
+coords <- st_coordinates(st_centroid(pref)) # ポリゴン（今回は都道府県）の重心座標を抽出
 plot(st_geometry(pref), col="white", border="grey")
 plot(nb1, coords, add=TRUE, col="red", cex=0.01, lwd=1.15)
 ```
@@ -215,6 +216,7 @@ edges <- do.call(
 
 ```R
 # k=4近傍に基づく近接行列の可視化
+coords <- st_coordinates(st_centroid(pref))
 knn <- knearneigh(coords, 4)
 nb1 <- knn2nb(knn)
 plot(st_geometry(pref), col="white", border="grey")
@@ -229,6 +231,7 @@ plot(nb1, coords, add=TRUE, col="red", cex=0.01, lwd=1.15)
 
 ```R
 # 一定距離(150km)以内に基づく近接行列の可視化
+coords <- st_coordinates(st_centroid(pref))
 nb1 <- dnearneigh(coords, d1=0, d2=150000)
 plot(st_geometry(pref), col="white", border="grey")
 plot(nb1, coords, add=TRUE, col="red", cex=0.01, lwd=1.15)
