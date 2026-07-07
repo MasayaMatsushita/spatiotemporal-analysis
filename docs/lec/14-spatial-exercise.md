@@ -41,6 +41,7 @@ nav_order: 14
 ### csvファイルの読み込み方法
 
 こちらのコードを参考にするとよい
+
 ```R
 # 観光客数CSVの読み込み
 setwd("C:\\<csvファイルがあるフォルダまでのパス>")
@@ -84,6 +85,6 @@ Google Formに以下の情報を記入し提出すること
 
 ### 課題の提出先
 
-Google Formで提出
+[こちら](https://docs.google.com/forms/d/e/1FAIpQLSdBqJ3b9rndbPxXP1vkYGLx-CncBAGyr6Cc74frgLq2upXfaw/viewform?usp=publish-editor)に提出
 
 提出期限：7月30日 17:00まで
